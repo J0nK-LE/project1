@@ -1,7 +1,59 @@
-*{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
 
-  .container {
-    background-color: aquamarine;
+*{
+    margin: 0;
+    padding: 0;
   }
+
+body{
+  position: relative;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-size: 20px;
+  background-color: #FDF8F5;
+  color: #4F4846;
+}
+
+h1, h2{
+  margin: 20px;
+}
+
+main{
+  padding: 60px 0;
+}
+
+header li{
+  display: inline;
+  padding: 0px 20px;
+  
+}
+
+a{
+  color: #FDF8F5;;
+}
+
+
+header, footer{
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  background-color: #266150;
+}
+
+header {
+  border-bottom: 10px solid #DDAF94;
+  /* position: fixed; */
+  text-align: right;
+  }
+
+footer{
+  position: absolute;
+  margin-top: 0;
+  bottom: 0;
+  border-bottom: 10px solid #4F4846;
+  color: #FDF8F5;  
+}
+
+figure{
+  margin-bottom: 40px;
+  display: block;
+  /* GET THE FIGURE CENTERED */
+}
